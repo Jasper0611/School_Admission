@@ -26,21 +26,21 @@ class intro:
             a=int(input("Class = "))
             if a==1:
                 print("Per Term Fee is Rs:1800/-", "Totally there are 3 Terms per year.")
-                self.b=1800*a
+                self.b=1800*3
             if a==2:
                 print("Per Term Fee is Rs:2800/-", "Totally there are 3 Terms per year.")    
-                self.b=2800*a
+                self.b=2800*3
             if a==3:
                 print("Per Term Fee is Rs:3800/-", "Totally there are 3 Terms per year.")
-                self.b=3800*a
+                self.b=3800*3
             if a==4:
                 print("Per Term Fee is Rs:4800/-", "Totally there are 3 Terms per year.")
-                self.b=4800*a
+                self.b=4800*3
             if a==5:
                 print("Per Term Fee is Rs:5800/-", "Totally there are 3 Terms per year.")
-                self.b=5800*a
+                self.b=5800*3
             if a>5:
-                self.b=("\nSorry we only teach upto 5th standard\n")
+                self.b=("\nSorry for the inconvenience as we only taking classes upto fifth standard, your input is invalid\n")
                 print(">>>>>Redirecting you to Home Page>>>>>>\n")
                 break
             else:
